@@ -1,0 +1,13 @@
+name: mwZombieDoor
+version: 0.1
+description: Disable zombie break door !
+author: Monowii
+main: me.monowii.zombiedoor.brain
+commands:
+  zombiedoor:
+    description: Toggle zombiedoor
+    permission: zombiedoor.admin
+    permission-message: You don't have permission to do this !
+permissions:
+  zombiedoor.admin:
+    default: op
